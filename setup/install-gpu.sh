@@ -28,7 +28,7 @@ conda install -y bcolz
 conda upgrade -y --all
 
 # install and configure keras
-conda install -c conda-forge keras
+conda install -y -c conda-forge keras
 
 # install cudnn libraries
 wget "http://files.fast.ai/files/cudnn.tgz" -O "cudnn.tgz"
